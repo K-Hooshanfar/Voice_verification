@@ -42,3 +42,6 @@ Follow these steps to set up your environment and install required libraries:
 
 To run the tool, use the following command:
 
+```bash
+!python /content/voice_verification_v2.py --wav_directory /content/wavs --resampled_directory /content/resampled --embedding_directory /content/pretrained/speech_campplus_sv_en_voxceleb_16k/embeddings --model_id 'damo/speech_campplus_sv_en_voxceleb_16k'
+```
