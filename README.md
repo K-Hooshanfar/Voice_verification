@@ -40,7 +40,13 @@ Follow these steps to set up your environment and install required libraries:
 
 ### Usage
 
-To run the tool, use the following command:
+To run the voice verification script, you need to provide the following arguments:
+
+1. The path to the directory containing your .wav files (--wav_directory).
+2. The path to the directory where the resampled .wav files will be stored (--resampled_directory).
+3. The path to the directory containing embeddings, or use the default path (--embedding_directory), which is set to /content/pretrained/speech_campplus_sv_en_voxceleb_16k/embeddings/.
+4. The model ID for speaker verification (--model_id).
+5. Optionally, you can set the threshold for speaker similarity using the --threshold parameter (default: 0.6).
 
 ```bash
 !python /content/voice_verification_v2.py --wav_directory /content/wavs --resampled_directory /content/resampled --embedding_directory /content/pretrained/speech_campplus_sv_en_voxceleb_16k/embeddings --model_id 'damo/speech_campplus_sv_en_voxceleb_16k'
