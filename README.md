@@ -45,7 +45,7 @@ To run the voice verification script, you need to provide the following argument
 1. The path to the directory containing your .wav files (--wav_directory).
 2. The path to the directory where the resampled .wav files will be stored (--resampled_directory).
 3. The path to the directory containing embeddings, or use the default path (--embedding_directory), which is set to /content/pretrained/speech_campplus_sv_en_voxceleb_16k/embeddings/.
-4. The model ID for speaker verification (--model_id).
+4. The model ID for speaker verification (--model_id)(speech_campplus_sv_en_voxceleb_16k or speech_eres2net_sv_en_voxceleb_16k).
 5. Optionally, you can set the threshold for speaker similarity using the --threshold parameter (default: 0.6).
 
 ```bash
