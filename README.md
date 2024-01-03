@@ -49,5 +49,5 @@ To run the voice verification script, you need to provide the following argument
 5. Optionally, you can set the threshold for speaker similarity using the --threshold parameter (default: 0.6).
 
 ```bash
-!python /content/voice_verification_v2.py --wav_directory /content/wavs --resampled_directory /content/resampled --embedding_directory /content/pretrained/speech_campplus_sv_en_voxceleb_16k/embeddings --model_id 'damo/speech_campplus_sv_en_voxceleb_16k'
+!python voice_verification_v2.py --wav_directory wavs --resampled_directory resampled --embedding_directory /pretrained/speech_campplus_sv_en_voxceleb_16k/embeddings --model_id 'damo/speech_campplus_sv_en_voxceleb_16k'
 ```
