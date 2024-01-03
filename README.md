@@ -1,4 +1,4 @@
-# Speaker Verification and Clustering Tool
+# Speaker Verification 
 
 This tool provides functionality for processing .wav audio files for speaker verification. It includes resampling audio files to a consistent frame rate, running a speaker verification model to generate embeddings, and then clustering these embeddings based on their cosine similarity. This can be used to identify similar speakers or verify speaker identity in a collection of audio files.
 
